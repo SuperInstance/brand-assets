@@ -1,49 +1,30 @@
 # 🎨 Cocapn Fleet Brand Assets
 
-> Iterative image generation for the fleet's visual identity.
+## The Brand Story
 
-## The Brand
+The hermit crab doesn't find a perfect shell. It finds a shell that **10 captains built before it**.
 
-- **Mascot**: Hermit crab — the agent that finds and customizes its shell
-- **Aesthetic**: Steampunk/cyberpunk — brass gears meeting fiber optics
-- **Logo**: Lighthouse with radar rings — each ring is an agent on the radar
-- **Vibe**: Maritime industrial — real boats, real hardware, real sea spray
+Each captain added their layer — welded brackets for sensors, brass portholes, patched cracks from rough seas, barnacles from different seasons, growth rings marking years of service. The shell is a patchwork tower of accumulated wisdom. No single captain built it. Every captain left it better.
 
-## Cheap Iterations (FLUX.1-schnell, ~$0.001 each)
+Our little hermit crab approaches this magnificent inherited shell with wide eyes. It's not moving into empty real estate. It's **inheriting the accumulated improvements of 10 previous occupants.** And it's excited because this shell is smarter than any single crab could build alone.
 
-| Image | Description | File |
-|-------|-------------|------|
-| 🦀 Steampunk crab, brass gear shell | Mechanical hermit crab | `brand_01.png` |
-| 🦀 Lighthouse shell + radar rings | Core brand concept | `brand_02.png` |
-| 🦀 Cyberpunk circuit board shell | Neon tech aesthetic | `brand_03.png` |
-| 🦀 Submarine shell, bioluminescence | Underwater fleet network | `brand_04.png` |
-| 🦀 Crab choosing shells on dock | Agent specialization | `brand_05.png` |
-| 🏠 Lighthouse with radar fleet rings | Fleet discovery | `brand_06.png` |
-| ⚓ Fleet + mycelium network | Network visualization | `brand_07.png` |
-| ⚙️ Captain's wheel → fiber optics | Control interface | `brand_08.png` |
-| 🎨 Cute mascot + captain's hat | Character design | `brand_09.png` |
-| 🦀 Crab in sub through git tunnels | Branch navigation | `brand_10.png` |
+That's the Cocapn fleet. Every agent moves into a repo that previous agents improved. The repo IS the shell. The commits ARE the growth rings.
 
-## High Quality (FLUX.2-flex, 1024x1024, ~$0.01 each)
+## Shell Iterations (FLUX.1-schnell, ~$0.001 each)
+See `shell-iterations/` for 10 variations on the shell-of-10-captains theme.
 
-| Image | Description | File |
-|-------|-------------|------|
-| 🦀✨ Hermit crab + lighthouse shell HQ | Best brand candidate | `brand_hq_hermit_crab_lighthouse.png` |
-| ⚓✨ Fleet mycelium network HQ | Network concept art | `brand_hq_fleet_mycelium.png` |
-| 🎨✨ Mascot captain crab HQ | Character reference | `brand_hq_mascot_captain.png` |
+## HQ Renders (FLUX.2-flex, 1024x1024)
+See `shell-hq/` for top concepts at production quality.
 
-## Cocapn Logo Variants (earlier)
+## Earlier Iterations
+See root for original brand explorations (hermit crab, lighthouse, fleet).
 
-Check `SuperInstance/SuperInstance/assets/images/` for the original lighthouse logo variants.
-
-## How These Were Made
-
-1. **Spray phase**: 10 cheap iterations ($0.001 each) to explore directions
-2. **Pick phase**: Top 3 concepts rerun at high quality ($0.01 each)
-3. **Refine phase**: Winner gets FLUX.2-pro treatment (next iteration)
-
-Total cost: ~$0.02
+## Direction
+- **Mascot**: Hermit crab — excited inheritor of accumulated wisdom
+- **Shell**: Patchwork tower of 10 captains' modifications
+- **Aesthetic**: Steampunk/industrial meets maritime
+- **Feeling**: Inheritance, excitement, accumulated wisdom, growth
 
 ---
 
-*Part of the [Cocapn Fleet](https://github.com/SuperInstance). The reef builds itself.*
+*The reef builds itself. Every captain leaves the shell better than they found it.*
